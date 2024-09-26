@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+#game {
+    display: grid;
+    grid-template-columns: repeat(10, 40px);
+    grid-template-rows: repeat(10, 40px);
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #333;
+    position: relative;
+}
+
+.pacman {
+    background-color: yellow;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
